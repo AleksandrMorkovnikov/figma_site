@@ -1,3 +1,5 @@
 img*
 *.svg
 *.png
+img/*.svg
+img/*.png

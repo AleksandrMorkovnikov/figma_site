@@ -1,0 +1,2189 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+header {
+  height: 75px;
+  max-width: 100vw;
+}
+
+.head {
+  background: #222222;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_icons {
+  gap: 41px;
+  display: flex;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* выпадающее меню */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown-content {
+  width: 232px;
+  top: 46px;
+  left: -60px;
+  position: absolute;
+  display: none;
+  gap: 20px;
+  background-color: #ffffff;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.drop_h {
+  margin: 32px 144px 4px 32px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  margin-left: 32px;
+  margin-right: 74px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(241, 109, 127, 1);
+}
+
+.category {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(111, 110, 110, 1);
+  padding-bottom: 11px;
+  padding-left: 21px;
+}
+
+.cat_up {
+  padding-top: 12px;
+}
+
+.cat_bottom {
+  padding-bottom: 0px;
+}
+
+.bottom_t {
+  margin-bottom: 32px;
+}
+
+/* выпадающее меню */
+
+.head_button {
+  background: none;
+  border: none;
+}
+
+.logo {
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.search {
+  padding-top: 28.21px;
+  padding-bottom: 20px;
+}
+
+.head_menu {
+  gap: 33px;
+  display: flex;
+}
+
+.menu {
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.prof {
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.prof_m {
+  display: none;
+}
+
+.cart_m {
+  display: none;
+}
+
+.cart {
+  margin-top: 26px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.cart_number {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background: rgba(241, 109, 127, 1);
+  color: white;
+  border-radius: 50%;
+  padding-top: 1px;
+  left: 20px;
+  top: -9px;
+}
+
+.cart_number_p {
+  position: absolute;
+
+  left: 26px;
+  top: -9px;
+}
+
+.screen1 {
+  background: rgba(241, 228, 230, 1);
+  max-width: 100vw;
+}
+
+.block1_banner {
+  max-width: 100vw;
+  display: flex;
+}
+
+.block1_pic {
+  width: 50vw;
+}
+
+.block1_text {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.h_block1 {
+  color: #222222;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.fw_block1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.lw_block1 {
+  color: #f16d7f;
+}
+
+.screen2 {
+  background: white;
+}
+
+.block2 {
+  padding-top: 65px;
+  padding-bottom: 96px;
+}
+
+.card_block2 {
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: multiply;
+  /* цвет затемнения немного не совпадает с макетом, хотя значения идентичные */
+}
+
+.table_block2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: 260px 180px;
+  gap: 30px 30px;
+  justify-content: center;
+}
+
+.pic1 {
+  background-image: url(img/block2_1.svg);
+}
+
+.pic2 {
+  background-image: url(img/block2_2.svg);
+}
+
+.pic3 {
+  background-image: url(img/block2_3.svg);
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  position: relative;
+  width: 360px;
+  height: 260px;
+}
+
+.pic4 {
+  width: 1140px;
+  height: 180px;
+  background-image: url(img/block2_4.svg);
+  grid-column: 1 / 4;
+  position: relative;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  position: absolute;
+}
+
+.text {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  vertical-align: middle;
+  text-align: center;
+  height: 260px;
+  width: 360px;
+}
+
+.text_img4 {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  height: 180px;
+  width: 1140px;
+}
+
+.text_bottom {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f16d7f;
+}
+
+.up_cards {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.uc_h {
+  color: rgba(34, 34, 34, 1);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.uc_p {
+  color: rgba(159, 159, 159, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 360px);
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
+.card_pic {
+  height: 420px;
+  width: 360px;
+}
+
+.cpic1 {
+  background-image: url(img/card_img1.svg);
+}
+
+.cpic2 {
+  background-image: url(img/card_img2.svg);
+}
+
+.cpic3 {
+  background-image: url(img/card_img3.svg);
+}
+
+.cpic4 {
+  background-image: url(img/card_img4.svg);
+}
+
+.cpic5 {
+  background-image: url(img/card_img5.svg);
+}
+
+.cpic6 {
+  background-image: url(img/card_img6.svg);
+}
+
+.card_pic:hover .card_hover {
+  background-color: rgba(58, 56, 56, 0.86);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  width: 360px;
+}
+
+.card_btn {
+  width: 139px;
+  height: 44px;
+  gap: 11.04px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.card_hover_h {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card_hover {
+  display: none;
+}
+
+.card {
+  background: #f8f8f8;
+}
+
+.card_h {
+  /* font-weight: 400; */
+  font-weight: bold;
+  /* на деле выглядит тоньше, чем на макете. идентичным становится при включении bold */
+  font-size: 13px;
+}
+
+.card_p {
+  color: rgba(93, 93, 93, 1);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.card_price {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(241, 109, 127, 1);
+}
+
+.card_flex {
+  padding-left: 16px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.down_cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.button_AllPruduts {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(242, 99, 118, 1);
+  border: solid;
+  border-color: rgba(255, 106, 106, 1);
+  border-width: 1px 1px;
+  padding: 15px 39px 14px 39px;
+  background: white;
+}
+
+.button_AllPruduts:hover {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border: solid;
+  border-color: rgba(255, 106, 106, 1);
+  border-width: 1px 1px;
+  padding: 15px 39px 14px 39px;
+  background: rgba(242, 99, 118, 1);
+}
+
+.screen3 {
+  background: rgba(34, 34, 36, 1);
+}
+
+.block4 {
+  height: 341px;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block4_cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.block4_svg {
+  padding-bottom: 12.07px;
+}
+
+.block4_h {
+  font-weight: 400;
+  font-size: 19.96px;
+  color: rgba(251, 251, 251, 1);
+  text-align: center;
+}
+
+.block4_p {
+  font-weight: 400;
+  font-size: 13.97px;
+  color: rgba(251, 251, 251, 1);
+  text-align: center;
+}
+
+.screen4 {
+  background-image: url(img/footer_block5.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.block5 {
+  max-width: 100vw;
+  height: 448px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 223.26px;
+  background-color: rgba(244, 244, 244, 0.7);
+  background-blend-mode: color;
+}
+
+.block5_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 97px;
+  margin-bottom: 126px;
+}
+
+.block5_img {
+  width: 96px;
+  height: 96px;
+}
+
+.block5_p {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  /* height: 99px; */
+}
+
+.block5_sub {
+  width: 557px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.block5_h {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.block5_span {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.block5_form {
+  display: flex;
+}
+
+.block5_input {
+  width: 256px;
+  height: 49px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  background-color: rgba(225, 225, 225, 1);
+  padding-left: 22px;
+  color: rgba(34, 34, 36, 1);
+}
+
+.block5_button {
+  width: 100px;
+  height: 49px;
+  border: none;
+  background: rgba(241, 109, 127, 1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+
+.block5_button:hover {
+  background: rgba(224, 92, 110, 1);
+}
+
+.block6 {
+  max-width: 100vw;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.block6_p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(251, 251, 251, 1);
+}
+
+.block6_social {
+  display: flex;
+  gap: 7.29px;
+}
+
+.block6_obj {
+  width: 31.45px;
+  height: 32px;
+  background: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.obj_hover:hover .obj_svg {
+  fill: white;
+}
+
+.obj_hover:hover .block6_obj {
+  background: rgba(241, 109, 127, 1);
+}
+
+@media (max-width: 1400px) {
+  .center {
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .head_icons {
+    margin-left: 32px;
+  }
+
+  .head_menu {
+    margin-right: 32px;
+  }
+
+  .block1_banner {
+    max-width: 100vw;
+  }
+
+  .block1_pic {
+    width: 50%;
+  }
+
+  .screen1 {
+    max-width: 100vw;
+  }
+
+  .block1_text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .h_block1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .fw_block1 {
+    font-weight: 900;
+    font-size: 44px;
+  }
+
+  .lw_block1 {
+    color: #f16d7f;
+  }
+
+  /* .block2 {
+    padding-top: 64.95px;
+    padding-bottom: 109.92px;
+  } */
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  /* .table_block2 {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 232.33px;
+    height: 167.62px;
+    background-size: 232.33px 167.62px;
+  }
+
+  .pic4 {
+    width: 734.58px;
+    height: 116.04px;
+    background-size: 734.58px 116.04px;
+  }
+
+  .text {
+    width: 232.33px;
+    height: 167.62px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 734.58px;
+    height: 116.04px;
+  } */
+
+  .cards {
+    max-width: 100vw;
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32.48px;
+  }
+
+  .card {
+    width: 360px;
+    height: 581px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  /* .up_cards {
+    margin-bottom: 72.74px;
+  } */
+
+  .down_cards {
+    margin-bottom: 70.52px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .head_icons {
+    margin-left: 32px;
+  }
+
+  .head_menu {
+    margin-right: 32px;
+  }
+
+  .block1_banner {
+    max-width: 100vw;
+  }
+
+  .block1_pic {
+    width: 50%;
+  }
+
+  .screen1 {
+    max-width: 100vw;
+  }
+
+  .block1_text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .h_block1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .fw_block1 {
+    font-weight: 900;
+    font-size: 44px;
+  }
+
+  .lw_block1 {
+    color: #f16d7f;
+  }
+
+  .block2 {
+    padding-top: 64.95px;
+    padding-bottom: 109.92px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 232.33px;
+    height: 167.62px;
+    background-size: 232.33px 167.62px;
+  }
+
+  .pic4 {
+    width: 734.58px;
+    height: 116.04px;
+    background-size: 734.58px 116.04px;
+  }
+
+  .text {
+    width: 232.33px;
+    height: 167.62px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 734.58px;
+    height: 116.04px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .card {
+    width: 360px;
+    height: 581px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  .up_cards {
+    margin-bottom: 72.74px;
+  }
+
+  .down_cards {
+    margin-bottom: 70.52px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+  }
+
+  header {
+    max-height: 74px;
+    max-width: 100vw;
+  }
+
+  .head_icons {
+    margin-left: 32px;
+  }
+
+  .head_menu {
+    margin-right: 32px;
+  }
+
+  .block1_banner {
+    max-width: 100vw;
+  }
+
+  .block1_pic {
+    width: 50%;
+  }
+
+  .screen1 {
+    max-width: 100vw;
+  }
+
+  .block1_text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .h_block1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .fw_block1 {
+    font-weight: 900;
+    font-size: 44px;
+  }
+
+  .lw_block1 {
+    color: #f16d7f;
+  }
+
+  .block2 {
+    padding-top: 64.95px;
+    padding-bottom: 109.92px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 232.33px;
+    height: 167.62px;
+    background-size: 232.33px 167.62px;
+  }
+
+  .pic4 {
+    width: 734.58px;
+    height: 116.04px;
+    background-size: 734.58px 116.04px;
+  }
+
+  .text {
+    width: 232.33px;
+    height: 167.62px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 734.58px;
+    height: 116.04px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32.48px;
+  }
+
+  .card {
+    width: 360px;
+    height: 581px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  .up_cards {
+    margin-bottom: 72.74px;
+  }
+
+  .down_cards {
+    margin-bottom: 70.52px;
+  }
+
+  .block4 {
+    max-width: 100vw;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48.43px;
+  }
+
+  .block4_first {
+    padding-top: 48.16px;
+  }
+
+  .block4_last {
+    padding-bottom: 64px;
+  }
+
+  .block4_cart {
+    width: 360px;
+  }
+
+  .block4_p {
+    font-weight: 300;
+    font-size: 13.97px;
+  }
+
+  .block4_p_span {
+    word-break: normal;
+  }
+
+  .screen4 {
+    background-image: url(img/footer_block5_768.svg);
+    background-position-y: 60%;
+    background-color: #f2f2f2;
+  }
+
+  .block5 {
+    max-width: 100vw;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+  }
+
+  .block5_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 64px;
+    margin-bottom: 0px;
+  }
+
+  .block5_sub {
+    padding-bottom: 140px;
+  }
+
+  .block6 {
+    max-width: 100vw;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-right: 32.34px;
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: calc(50% - 384px);
+    padding-right: calc(50% - 384px);
+  }
+
+  header {
+    max-height: 74px;
+    max-width: 100vw;
+  }
+
+  .dropdown-content {
+    width: 768px;
+    top: 46px;
+    left: -580px;
+    position: absolute;
+    display: none;
+    gap: 20px;
+    background-color: #ffffff;
+  }
+
+  .show {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 256px);
+    gap: 15px;
+    margin-bottom: 48px;
+  }
+
+  .drop_h {
+    grid-column: 1 / 4;
+    text-align: left;
+  }
+
+  .head_icons {
+    margin-left: 32px;
+  }
+
+  .head_menu {
+    margin-right: 32px;
+  }
+
+  .screen1 {
+    max-width: 100vw;
+  }
+
+  .block1_text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .h_block1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .fw_block1 {
+    font-weight: 900;
+    font-size: 44px;
+  }
+
+  .lw_block1 {
+    color: #f16d7f;
+  }
+
+  .block1_banner {
+    max-width: 100vw;
+  }
+
+  .block2 {
+    padding-top: 64.95px;
+    padding-bottom: 109.92px;
+  }
+
+  .block1_pic {
+    width: 50%;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 232.33px;
+    height: 167.62px;
+    background-size: 232.33px 167.62px;
+  }
+
+  .pic4 {
+    width: 734.58px;
+    height: 116.04px;
+    background-size: 734.58px 116.04px;
+  }
+
+  .text {
+    width: 232.33px;
+    height: 167.62px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 734.58px;
+    height: 116.04px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32.48px;
+  }
+
+  .card {
+    width: 360px;
+    height: 581px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  .up_cards {
+    margin-bottom: 72.74px;
+  }
+
+  .down_cards {
+    margin-bottom: 70.52px;
+  }
+
+  .block4 {
+    max-width: 100vw;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block4_cart {
+    width: 360px;
+  }
+
+  .block4_p {
+    font-weight: 300;
+    font-size: 13.97px;
+  }
+
+  .block4_p_span {
+    word-break: normal;
+  }
+
+  .screen4 {
+    background-image: url(img/footer_block5_768.svg);
+    background-position-y: 10%;
+    background-color: #f2f2f2;
+  }
+
+  .block5 {
+    max-width: 100vw;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+  }
+
+  .block5_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 64px;
+    margin-bottom: 0px;
+  }
+
+  .block5_sub {
+    padding-bottom: 140px;
+  }
+
+  .block6 {
+    max-width: 100vw;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-right: 32.34px;
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 383.5px);
+    padding-right: calc(50% - 383.5px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  /* .prof {
+    display: none;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: none;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_mainblock {
+    top: 1em;
+    left: -85px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    width: 60px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  } */
+
+  .block1_pic {
+    display: none;
+  }
+
+  .block1_banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+  }
+
+  .block2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 343px;
+    height: 247px;
+    background-size: 343px 247px;
+  }
+
+  .pic4 {
+    width: 343.26px;
+    height: 111px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    width: 343px;
+    height: 247px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 343.26px;
+    height: 111px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40.61px;
+  }
+
+  .up_cards {
+    margin-bottom: 85px;
+    gap: 3.3px;
+  }
+
+  .down_cards {
+    margin-bottom: 85px;
+  }
+
+  .block4 {
+    max-width: 100vw;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block4_cart {
+    width: 360px;
+  }
+
+  .block4_p {
+    font-weight: 300;
+    font-size: 13.97px;
+  }
+
+  .block4_p_span {
+    word-break: normal;
+  }
+
+  .screen4 {
+    background-image: url(img/footer_block5_768.svg);
+    background-position-y: 10%;
+    background-color: #f2f2f2;
+  }
+
+  .block5 {
+    max-width: 100vw;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+  }
+
+  .block5_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 64px;
+    margin-bottom: 0px;
+  }
+
+  .block5_sub {
+    padding-bottom: 140px;
+  }
+
+  .block6 {
+    max-width: 100vw;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-right: 32.34px;
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 425px) {
+  .center {
+    padding-left: calc(50% - 212.5px);
+    padding-right: calc(50% - 212.5px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .dropdown-content {
+    width: 425px;
+    top: 46px;
+    left: -370px;
+    position: absolute;
+    display: none;
+    gap: 20px;
+    background-color: #ffffff;
+  }
+
+  .show {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 141.6px);
+    gap: 5px;
+    margin-bottom: 48px;
+  }
+
+  .drop_h {
+    grid-column: 1 / 4;
+    text-align: left;
+  }
+
+  .type {
+    display: flex;
+    margin-left: 32px;
+    margin-right: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(241, 109, 127, 1);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .category {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(111, 110, 110, 1);
+    padding-bottom: 11px;
+    padding-left: 0px;
+  }
+
+  .prof {
+    display: none;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  /* .dropbtn {
+    background-color: none;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_mainblock {
+    top: 1em;
+    left: -85px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    width: 60px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  } */
+
+  .block1_pic {
+    display: none;
+  }
+
+  .block1_banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+  }
+
+  .block2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 343px;
+    height: 247px;
+    background-size: 343px 247px;
+  }
+
+  .pic4 {
+    width: 343.26px;
+    height: 111px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    width: 343px;
+    height: 247px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 343.26px;
+    height: 111px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40.61px;
+  }
+
+  .up_cards {
+    margin-bottom: 85px;
+    gap: 3.3px;
+  }
+
+  .down_cards {
+    margin-bottom: 85px;
+  }
+
+  .block4 {
+    max-width: 100vw;
+    height: 610px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block4_cart {
+    width: 360px;
+  }
+
+  .block4_p {
+    font-weight: 300;
+    font-size: 13.97px;
+  }
+
+  .block4_p_span {
+    word-break: normal;
+  }
+
+  .block4_last {
+    padding-bottom: 81px;
+  }
+
+  .block4_first {
+    padding-top: 48px;
+  }
+
+  .screen4 {
+    background-image: url(img/footer_block5_768.svg);
+    background-position-y: 10%;
+    background-color: #f2f2f2;
+  }
+
+  .block5 {
+    max-width: 100vw;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 59px;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-blend-mode: color;
+  }
+
+  .block5_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29.27px;
+    /* padding-top: 64px; */
+    margin-bottom: 0px;
+  }
+
+  .block5_sub {
+    padding-bottom: 109.92px;
+    width: 341px;
+    gap: 22.15px;
+  }
+
+  .block6 {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 43px;
+    padding-bottom: 9px;
+  }
+
+  .block5_p {
+    font-size: 18px;
+  }
+
+  .block5_h {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .block5_span {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: calc(50% - 187.5px);
+    padding-right: calc(50% - 187.5px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .prof {
+    display: none;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: none;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_mainblock {
+    top: 1em;
+    left: -85px;
+    position: absolute;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    width: 60px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+
+  .block1_pic {
+    display: none;
+  }
+
+  .block1_banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+  }
+
+  .block2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 343px;
+    height: 247px;
+    background-size: 343px 247px;
+  }
+
+  .pic4 {
+    width: 343.26px;
+    height: 111px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    width: 343px;
+    height: 247px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 343.26px;
+    height: 111px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40.61px;
+  }
+
+  .up_cards {
+    margin-bottom: 85px;
+  }
+
+  .down_cards {
+    margin-bottom: 85px;
+  }
+
+  .block5_input {
+    width: 192px;
+  }
+}
+
+@media (max-width: 374px) {
+  .center {
+    padding-left: calc(50% - 187.5px);
+    padding-right: calc(50% - 187.5px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .prof {
+    display: none;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: none;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_mainblock {
+    top: 1em;
+    left: -85px;
+    position: absolute;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    width: 60px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+
+  .block1_pic {
+    display: none;
+  }
+
+  .block1_text {
+    max-width: 100vw;
+  }
+
+  .block1_banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+  }
+
+  .block2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 313px;
+    height: 217px;
+    background-size: 313px 217px;
+  }
+
+  .pic4 {
+    width: 313px;
+    height: 81px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    width: 313px;
+    height: 217px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 313px;
+    height: 81px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40.61px;
+  }
+
+  .card {
+    width: 320px;
+    height: 541px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  .card_img {
+    width: 320px;
+  }
+
+  .up_cards {
+    gap: 3.3px;
+    margin-bottom: 85px;
+  }
+
+  .uc_p {
+    text-align: center;
+  }
+
+  .down_cards {
+    margin-bottom: 85px;
+  }
+}
+
+@media (max-width: 320px) {
+  .center {
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
+  }
+
+  header {
+    max-width: 100vw;
+  }
+
+  .prof {
+    display: none;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: none;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_mainblock {
+    top: 1em;
+    left: -85px;
+    position: absolute;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    background-color: #222222;
+    flex-wrap: nowrap;
+  }
+
+  .dropdown-content {
+    display: none;
+    padding-top: 10px;
+    width: 60px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+
+  .block1_pic {
+    display: none;
+  }
+
+  .block1_banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+  }
+
+  .block2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .screen2 {
+    max-width: 100vw;
+  }
+
+  .table_block2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .pic1,
+  .pic2,
+  .pic3 {
+    width: 313px;
+    height: 217px;
+    background-size: 313px 217px;
+  }
+
+  .pic4 {
+    width: 313px;
+    height: 81px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    width: 313px;
+    height: 217px;
+    font-size: 16px;
+  }
+
+  .text_bottom {
+    font-size: 24px;
+  }
+
+  .text_img4 {
+    width: 313px;
+    height: 81px;
+  }
+
+  .card_pic {
+    width: 320px;
+    height: 370px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 16px;
+    /* в макете очень странные пробелы между карточками, везде разные. 16 - усредненное значение */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40.61px;
+  }
+
+  .card {
+    width: 320px;
+    height: 541px;
+    /* в макете размер первой каточки на 1 пиксель больше */
+  }
+
+  .card_img {
+    width: 320px;
+  }
+
+  .up_cards {
+    gap: 3.3px;
+    margin-bottom: 85px;
+  }
+
+  .uc_p {
+    text-align: center;
+  }
+
+  .down_cards {
+    margin-bottom: 85px;
+  }
+
+  .block4_cart {
+    width: 320px;
+  }
+
+  .block5_sub {
+    max-width: 320px;
+  }
+
+  .card_pic:hover .card_hover {
+    height: 370px;
+    width: 320px;
+  }
+}
